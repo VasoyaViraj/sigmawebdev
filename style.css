@@ -55,7 +55,7 @@ main{
     align-items: center;
     height:92vh;
     width: 100vw;
-    border: 5px solid rgb(213, 44, 219);
+/*    border: 5px solid rgb(213, 44, 219); */
     box-sizing: border-box;
 }
 .container{
