@@ -1,4 +1,4 @@
-alert("Plese Latest Version You can download latest version by click on version in right bottom");
+alert("Please download latest version. You can download latest version by click on version in right bottom");
 
 let buttons = document.querySelectorAll('.button');
 let main = document.querySelector("main");
