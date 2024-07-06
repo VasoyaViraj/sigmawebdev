@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+/* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9khy_GfFvHUZSMpacHBAz6WPoLZ_ABagSlg&s); */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 92vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
