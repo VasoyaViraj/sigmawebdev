@@ -5,16 +5,21 @@
     font-family: "Roboto Slab", serif;
  }
 
-body{
-    background-color: #d9d9d9;
+.app > .screen{
+    display: none;
 }
 
-main{
+.app > .screen.active{
+    display: grid ;
+}
+
+.main{
     display: grid;
     grid-template-columns: 5vw 1fr 5vw 1fr 5vw;
-    grid-template-rows: 8vh 1fr 8vh 1fr 10vh;
-    height: 100vh;
+    grid-template-rows: 2vh 1fr 4vh 1fr 10vh;
+    height: 91vh;
     width: 100vw;
+    /* margin-top: 1vh; */
 }
 
 .heading{
@@ -96,7 +101,7 @@ input{
 
 .sub{
     width: 100vw;
-    height: 10vh;
+    height: 9vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,18 +113,16 @@ input{
     border: none;
     outline: none;
     background-color: #f5a4a4;
-    padding: 8px;
     border-radius: 20px;
     width: 125px;
     height: 40px;
-    margin-top: 7px;
 }
 
 h1{
     text-shadow: 5px 5px 5px rgb(215, 192, 145);
 }
 
-
-nothing{
-    cursor: pointer;
+.bill{
+    width: auto;
+    height: auto;
 }
