@@ -3,15 +3,8 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto Slab", serif;
+    box-sizing: border-box;
  }
-
-.app > .screen{
-    display: none;
-}
-
-.app > .screen.active{
-    display: grid ;
-}
 
 .main{
     display: grid;
@@ -123,6 +116,32 @@ h1{
 }
 
 .bill{
-    width: auto;
-    height: auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 92vh;
+}
+
+.btnDiv{
+    margin-top: 23px;
+}
+
+.btn{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    padding: 5px;
+
+}
+
+table, th, td{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
 }
